@@ -13,4 +13,6 @@
     border: 1px solid;
     text-align: center;
     line-height: 150px;
+    max-width: 200px;
+    border-radius: 2px;
 }

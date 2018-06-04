@@ -9,31 +9,24 @@ class App extends React.Component {
         <div className="top-menu">
           <nav className="ink-navigation ink-grid">
             <ul className="menu horizontal black">
-              <li className="active">
+              <li className="header active">
                 <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Inventory</a>
+              </li>
+              <li>
+                <a href="#">Patterns</a>
+              </li>
+              <li>
+                <a href="#">WIPs</a>
               </li>
             </ul>
           </nav>
         </div>
         <div className="example">
           <div className="ink-grid">
-              <div className="column-group horizontal-gutters">
-                  <div className="all-33">
-                    <div className="column">
-                      Fibre Inventory
-                    </div>
-                  </div>
-                  <div className="all-33">
-                    <div className="column">
-                      Patterns
-                    </div>
-                  </div>
-                  <div className="all-33">
-                    <div className="column">
-                      WIPs
-                    </div>
-                  </div>
-              </div>
+            FO Gallery
           </div>
         </div>
       </div>
