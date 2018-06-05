@@ -1,6 +1,5 @@
 import * as React from 'react';
 import './App.css';
-import Inventory from "./components/Inventory"
 
 class App extends React.Component {
   public render() {
@@ -13,7 +12,7 @@ class App extends React.Component {
                 <a href="#">Home</a>
               </li>
               <li>
-                <Inventory />
+                <a href="#">Inventory</a>
               </li>
               <li>
                 <a href="#">Patterns</a>
