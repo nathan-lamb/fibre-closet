@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
+import Title from './Title'
+
 class Home extends React.Component {
   render() {
     return (
@@ -21,6 +23,7 @@ class Home extends React.Component {
               </li>
             </ul>
           </nav>
+          {Title}
         </div>
     )
   }

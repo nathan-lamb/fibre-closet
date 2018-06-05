@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list id="e9b5a556-36b6-4086-b5af-12f1736c2e5e" name="New changelist" comment="Remove Title to a separate component" />
     <list default="true" id="84c1ce6b-e1a0-497d-8f2f-83bda21872ae" name="Default" comment="Create Title component">
       <change afterPath="$PROJECT_DIR$/src/components/Title.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.tsx" afterDir="false" />
     </list>
-    <list id="e9b5a556-36b6-4086-b5af-12f1736c2e5e" name="New changelist" comment="Remove Title to a separate component" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -22,11 +22,8 @@
       <file leaf-file-name="Home.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Home.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -210,7 +207,7 @@
       <workItem from="1528024516216" duration="41000" />
       <workItem from="1528024577458" duration="4777000" />
       <workItem from="1528143491664" duration="1968000" />
-      <workItem from="1528194511601" duration="8105000" />
+      <workItem from="1528194511601" duration="8181000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Title to separate component">
       <created>1528217652055</created>
@@ -233,25 +230,32 @@
       <option name="project" value="LOCAL" />
       <updated>1528217695379</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change Home function to class">
+      <created>1528217772381</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528217772382</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18913000" />
+    <option name="totallyTimeSpent" value="18989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="549" y="0" width="891" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32868218" />
+      <window_info anchor="bottom" id="Messages" weight="0.32868218" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.23602484" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.23565891" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2937365" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19885057" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19885057" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -296,7 +300,8 @@
     <MESSAGE value="Add wips to dictionary" />
     <MESSAGE value="Remove Title to separate component" />
     <MESSAGE value="Create Title component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Title component" />
+    <MESSAGE value="Change Home function to class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change Home function to class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -625,11 +630,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
