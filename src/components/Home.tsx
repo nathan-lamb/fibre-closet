@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 
 import Title from './Title'
+// import {types} from "util";
 
 class Home extends React.Component {
   public render() {
