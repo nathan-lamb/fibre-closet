@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Title from './Title'
 
 class Home extends React.Component {
-  render() {
+  public render() {
     return (
         <div>
           <nav className="ink-navigation">
@@ -23,7 +23,7 @@ class Home extends React.Component {
               </li>
             </ul>
           </nav>
-          {Title}
+          <Title />
         </div>
     )
   }
