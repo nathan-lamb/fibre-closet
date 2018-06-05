@@ -4,6 +4,8 @@ import {HashRouter as Router, Route} from "react-router-dom";
 import './App.css';
 
 import Navbar from './components/Navbar'
+import Title from "./components/Title";
+
 import routes from './routes'
 
 class App extends React.Component {
@@ -11,14 +13,15 @@ class App extends React.Component {
     return (
         <Router>
           <div>
-          <Navbar />
+            <Navbar />
+            <Title />
             <div>
-              {routes.map((route, index) => (
+              {routes.map((route) => (
                   <Route
-                    key={index}
                     path={route.path}
                     exact={route.exact}
-                    component={route.title}
+                    title={route.title}
+                    component={route.object}
                   />
               ))}
             </div>
