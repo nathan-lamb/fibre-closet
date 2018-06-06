@@ -4,7 +4,7 @@ import FilterMenu from './FilterMenu'
 
 const Inventory = () => {
   return (
-      <div className="column all-25 filter-bar">
+      <div className="column all-100">
         <FilterMenu />
       </div>
   )

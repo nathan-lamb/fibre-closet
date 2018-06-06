@@ -3,7 +3,12 @@
     border-bottom: 1px solid #aaaaaa;
 }
 
-.filter-bar {
+.ink-dropdown {
     border: 1px solid #aaaaaa;
-    padding-bottom: 10em;
+    margin: 0 5% 0 5%;
+    cursor: pointer;
+}
+
+span {
+    padding: 0 5px 0 5px;
 }
