@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84c1ce6b-e1a0-497d-8f2f-83bda21872ae" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Nathan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Nathan.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AddStashForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddStashForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Stash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stash.tsx" afterDir="false" />
     </list>
     <list id="e9b5a556-36b6-4086-b5af-12f1736c2e5e" name="New changelist" comment="Remove Title to a separate component" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,8 +46,13 @@
       <file leaf-file-name="AddStashForm.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/AddStashForm.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="195">
+              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+              <folding>
+                <element signature="e#369#565#0" />
+                <element signature="e#155#744#0" />
+                <element signature="e#1174#1675#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,9 +117,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="554" />
-    <option name="width" value="886" />
-    <option name="height" value="550" />
+    <option name="x" value="301" />
+    <option name="width" value="1139" />
+    <option name="height" value="569" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -213,7 +218,7 @@
       <workItem from="1528143491664" duration="1968000" />
       <workItem from="1528194511601" duration="15175000" />
       <workItem from="1528227062603" duration="7586000" />
-      <workItem from="1528281947441" duration="22242000" />
+      <workItem from="1528281947441" duration="24108000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Title to separate component">
       <created>1528217652055</created>
@@ -341,14 +346,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528318442872</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Add fibreCcontent, weight dropdowns">
+      <created>1528322981176</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1528322981176</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55811000" />
+    <option name="totallyTimeSpent" value="57677000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="554" y="0" width="886" height="550" extended-state="0" />
+    <frame x="301" y="0" width="1139" height="569" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
@@ -359,7 +371,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.40045768" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.27074236" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48608136" visible="true" weight="0.25895953" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48608136" visible="true" weight="0.20035778" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286052" />
       <window_info id="Structure" order="1" sideWeight="0.51391864" side_tool="true" weight="0.32941177" />
@@ -446,7 +458,8 @@
     <MESSAGE value="Rename Inventory to Stash" />
     <MESSAGE value="Add StashDetail component" />
     <MESSAGE value="Add AddStashForm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add AddStashForm" />
+    <MESSAGE value="Add fibreCcontent, weight dropdowns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add fibreCcontent, weight dropdowns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -799,8 +812,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AddStashForm.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="195">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="e#369#565#0" />
+            <element signature="e#155#744#0" />
+            <element signature="e#1174#1675#0" />
+          </folding>
         </state>
       </provider>
     </entry>
