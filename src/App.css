@@ -2,3 +2,8 @@
     padding: 2% 5% 1%;
     border-bottom: 1px solid #aaaaaa;
 }
+
+.filter-bar {
+    border: 1px solid #aaaaaa;
+    padding-bottom: 10em;
+}

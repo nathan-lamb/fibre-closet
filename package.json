@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/prop-types": "^15.5.3",
     "@types/react-router-dom": "^4.2.7",
     "knex": "^0.14.6",
     "react": "^16.4.0",

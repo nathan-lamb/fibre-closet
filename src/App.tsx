@@ -15,15 +15,17 @@ class App extends React.Component {
           <div>
             <Navbar />
             <Title />
-            <div>
-              {routes.map((route) => (
-                  <Route
-                    path={route.path}
-                    exact={route.exact}
-                    title={route.title}
-                    component={route.object}
-                  />
-              ))}
+            <div className="ink-grid">
+              <div className="column-group">
+                {routes.map((route) => (
+                    <Route
+                      path={route.path}
+                      exact={route.exact}
+                      title={route.title}
+                      component={route.object}
+                    />
+                ))}
+              </div>
             </div>
           </div>
         </Router>

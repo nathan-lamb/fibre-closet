@@ -1,9 +1,11 @@
 import * as React from 'react';
 
+import FilterMenu from './FilterMenu'
+
 const Inventory = () => {
   return (
-      <div className="ink-grid">
-        Invvv
+      <div className="column all-25 filter-bar">
+        <FilterMenu />
       </div>
   )
 };
