@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+    <list id="e9b5a556-36b6-4086-b5af-12f1736c2e5e" name="New changelist" comment="Remove Title to a separate component" />
     <list default="true" id="84c1ce6b-e1a0-497d-8f2f-83bda21872ae" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Nathan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Nathan.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AddStashForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddStashForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Stash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stash.tsx" afterDir="false" />
     </list>
-    <list id="e9b5a556-36b6-4086-b5af-12f1736c2e5e" name="New changelist" comment="Remove Title to a separate component" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -34,8 +34,8 @@
       <file leaf-file-name="Stash.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Stash.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="120">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -46,10 +46,10 @@
       <file leaf-file-name="AddStashForm.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/AddStashForm.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+            <state relative-caret-position="105">
+              <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
               <folding>
-                <element signature="e#155#655#0" />
+                <element signature="e#330#3083#0" />
               </folding>
             </state>
           </provider>
@@ -115,9 +115,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="757" />
-    <option name="width" value="683" />
-    <option name="height" value="480" />
+    <option name="x" value="633" />
+    <option name="width" value="807" />
+    <option name="height" value="518" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -216,7 +216,7 @@
       <workItem from="1528143491664" duration="1968000" />
       <workItem from="1528194511601" duration="15175000" />
       <workItem from="1528227062603" duration="7586000" />
-      <workItem from="1528281947441" duration="27446000" />
+      <workItem from="1528281947441" duration="29061000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Title to separate component">
       <created>1528217652055</created>
@@ -358,14 +358,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528324904497</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Add stash form details">
+      <created>1528367382155</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1528367382156</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61015000" />
+    <option name="totallyTimeSpent" value="62630000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="716" y="0" width="724" height="635" extended-state="0" />
+    <frame x="633" y="0" width="807" height="518" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
@@ -465,7 +472,8 @@
     <MESSAGE value="Add AddStashForm" />
     <MESSAGE value="Add fibreCcontent, weight dropdowns" />
     <MESSAGE value="Add some stash form details" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add some stash form details" />
+    <MESSAGE value="Add stash form details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add stash form details" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -808,8 +816,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Stash.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="120">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -818,10 +826,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AddStashForm.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        <state relative-caret-position="105">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
           <folding>
-            <element signature="e#155#655#0" />
+            <element signature="e#330#3083#0" />
           </folding>
         </state>
       </provider>

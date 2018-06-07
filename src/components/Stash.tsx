@@ -6,7 +6,7 @@ import AddStashForm from './AddStashForm'
 const Stash = () => {
   return (
       <div className="column all-100">
-        <button className="ink-button">
+        <button id="stashFormModal" className="ink-button">
           Add <i className="fas fa-plus-circle" />
         </button>
         <AddStashForm />
