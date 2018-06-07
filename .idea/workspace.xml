@@ -34,8 +34,8 @@
       <file leaf-file-name="Stash.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Stash.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -46,12 +46,10 @@
       <file leaf-file-name="AddStashForm.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/AddStashForm.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="-40">
+              <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding>
-                <element signature="e#369#565#0" />
-                <element signature="e#155#744#0" />
-                <element signature="e#1174#1675#0" />
+                <element signature="e#155#655#0" />
               </folding>
             </state>
           </provider>
@@ -117,9 +115,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="301" />
-    <option name="width" value="1139" />
-    <option name="height" value="569" />
+    <option name="x" value="757" />
+    <option name="width" value="683" />
+    <option name="height" value="480" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -218,7 +216,7 @@
       <workItem from="1528143491664" duration="1968000" />
       <workItem from="1528194511601" duration="15175000" />
       <workItem from="1528227062603" duration="7586000" />
-      <workItem from="1528281947441" duration="24108000" />
+      <workItem from="1528281947441" duration="27446000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Title to separate component">
       <created>1528217652055</created>
@@ -353,14 +351,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528322981176</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add some stash form details">
+      <created>1528324904497</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1528324904497</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57677000" />
+    <option name="totallyTimeSpent" value="61015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="301" y="0" width="1139" height="569" extended-state="0" />
+    <frame x="716" y="0" width="724" height="635" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
@@ -371,7 +376,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.40045768" />
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.27074236" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48608136" visible="true" weight="0.20035778" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48608136" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286052" />
       <window_info id="Structure" order="1" sideWeight="0.51391864" side_tool="true" weight="0.32941177" />
@@ -459,7 +464,8 @@
     <MESSAGE value="Add StashDetail component" />
     <MESSAGE value="Add AddStashForm" />
     <MESSAGE value="Add fibreCcontent, weight dropdowns" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add fibreCcontent, weight dropdowns" />
+    <MESSAGE value="Add some stash form details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add some stash form details" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -802,8 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Stash.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -812,12 +818,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AddStashForm.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="-40">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding>
-            <element signature="e#369#565#0" />
-            <element signature="e#155#744#0" />
-            <element signature="e#1174#1675#0" />
+            <element signature="e#155#655#0" />
           </folding>
         </state>
       </provider>

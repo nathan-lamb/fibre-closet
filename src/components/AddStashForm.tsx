@@ -24,11 +24,17 @@ const AddStashForm = () => {
           </div>
           <div className="colour">
             <label id="colour">Nearest Colour</label>
-            <div className="control-group">
-                <p className="label">Please choose the nearest colour/s</p>
-                <ul className="control">
-                  <li><input type="checkbox" id="blue" value="blue" name="blue"/><label id="blue">blue</label></li>
-                </ul>
+            <div className="control">
+              <select id="colour">
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+                <option value="purple">Purple</option>
+                <option value="white">White</option>
+                <option value="black">Black</option>
+                <option value="multi">Multicolour</option>
+              </select>
             </div>
           </div>
           <div className="weight">
