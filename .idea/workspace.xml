@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84c1ce6b-e1a0-497d-8f2f-83bda21872ae" name="Default" comment="Add submit button and remove modal footer">
-      <change afterPath="$PROJECT_DIR$/src/components/StashThumb.tsx" afterDir="false" />
+    <list id="e9b5a556-36b6-4086-b5af-12f1736c2e5e" name="New changelist" comment="Remove Title to a separate component" />
+    <list default="true" id="84c1ce6b-e1a0-497d-8f2f-83bda21872ae" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddStashForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddStashForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Stash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stash.tsx" afterDir="false" />
     </list>
-    <list id="e9b5a556-36b6-4086-b5af-12f1736c2e5e" name="New changelist" comment="Remove Title to a separate component" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -36,8 +34,8 @@
       <file leaf-file-name="Stash.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Stash.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="288">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -45,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StashThumb.tsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StashThumb.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/StashThumb.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -63,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="307">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -110,9 +108,9 @@
         <option value="$PROJECT_DIR$/src/components/StashEntry.tsx" />
         <option value="$PROJECT_DIR$/src/components/StashItem.tsx" />
         <option value="$PROJECT_DIR$/src/components/AddStashForm.tsx" />
-        <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/components/Stash.tsx" />
         <option value="$PROJECT_DIR$/src/components/StashThumb.tsx" />
+        <option value="$PROJECT_DIR$/src/components/Stash.tsx" />
+        <option value="$PROJECT_DIR$/src/App.css" />
       </list>
     </option>
   </component>
@@ -235,7 +233,7 @@
       <workItem from="1528194511601" duration="15175000" />
       <workItem from="1528227062603" duration="7586000" />
       <workItem from="1528281947441" duration="32646000" />
-      <workItem from="1528547930500" duration="3410000" />
+      <workItem from="1528547930500" duration="4170000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Title to separate component">
       <created>1528217652055</created>
@@ -412,11 +410,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528547972898</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add StashThumb component">
+      <created>1528559661587</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1528559661587</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69625000" />
+    <option name="totallyTimeSpent" value="70385000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="590" y="0" width="850" height="545" extended-state="0" />
@@ -501,7 +506,8 @@
     <MESSAGE value="Add modal for AddStashForm" />
     <MESSAGE value="Styling AddStashForm" />
     <MESSAGE value="Add submit button and remove modal footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add submit button and remove modal footer" />
+    <MESSAGE value="Add StashThumb component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add StashThumb component" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -820,27 +826,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
+    <entry file="file://$PROJECT_DIR$/src/components/StashThumb.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Stash.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="288">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/StashThumb.tsx">
+    <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="307">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>

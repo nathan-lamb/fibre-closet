@@ -17,7 +17,6 @@ const Stash = () => {
             <StashThumb />
             <StashThumb />
             <StashThumb />
-            <StashThumb />
         </div>
       </div>
   )
