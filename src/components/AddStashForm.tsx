@@ -76,13 +76,14 @@ const AddStashForm = () => {
                   </div>
                 </div>
               </div>
+              <input type="submit" value="Submit"/>
             </form>
           </div>
-          <div className="modal-footer">
-            <div className="push-right">
-              <button className="ink-button caution ink-dismiss">Close</button>
-            </div>
-          </div>
+          {/*<div className="modal-footer">*/}
+            {/*<div className="push-right">*/}
+              {/*<button className="ink-button caution ink-dismiss">Close</button>*/}
+            {/*</div>*/}
+          {/*</div>*/}
         </div>
       </div>
 
