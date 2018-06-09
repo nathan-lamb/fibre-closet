@@ -9,26 +9,32 @@ const AddStashForm = () => {
           </div>
           <div className="modal-body" id="modal-content">
             <form className="ink-form">
-              <div className="column-group">
                 <div className="name">
                   <label id="name">Yarn</label>
                   <div className="control">
-                    <input id="name" type="text" name="name" />
+                    <input id="name" type="text" name="name" className="all-100" />
                   </div>
                 </div>
                 <div className="brand">
                   <label id="brand">Brand</label>
                   <div className="control">
-                    <input id="brand" type="text" name="brand" />
+                    <input id="brand" type="text" name="brand" className="all-100"/>
+                  </div>
+                </div>
+                <div className="quantity">
+                  <label id="quantity">Quantity</label>
+                  <div className="control">
+                    <input id="quantity" type="text" name="quantity" className="all-100"/>
                   </div>
                 </div>
                 <div className="colourway">
                   <label id="colourway">Colourway</label>
                   <div className="control">
-                    <input id="colourway" type="text" name="colourway" />
+                    <input id="colourway" type="text" name="colourway" className="all-100"/>
                   </div>
                 </div>
-                <div className="colour">
+              <div className="column-group">
+                <div className="colour all-33">
                   <label id="colour">Nearest Colour</label>
                   <div className="control">
                     <select id="colour">
@@ -43,7 +49,7 @@ const AddStashForm = () => {
                     </select>
                   </div>
                 </div>
-                <div className="weight">
+                <div className="weight all-33">
                   <label id="weight">Weight</label>
                   <div className="control">
                     <select id="weight">
@@ -57,7 +63,7 @@ const AddStashForm = () => {
                     </select>
                   </div>
                 </div>
-                <div className="fibreContent">
+                <div className="fibreContent all-33">
                   <label id="fibreContent">Fibre Content</label>
                   <div className="control">
                     <select id="fibreContent">
@@ -67,12 +73,6 @@ const AddStashForm = () => {
                       <option value="nylon">Nylon</option>
                       <option value="possum">Possum</option>
                     </select>
-                  </div>
-                </div>
-                <div className="quantity">
-                  <label id="quantity">Quantity</label>
-                  <div className="control">
-                    <input id="quantity" type="text" name="quantity" placeholder="200m"/>
                   </div>
                 </div>
               </div>
