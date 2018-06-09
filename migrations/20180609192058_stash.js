@@ -6,9 +6,9 @@ exports.up = function(knex, Promise) {
     table.string('brand');
     table.string('quantity');
     table.string('colourway');
-    table.string('nearest colour');
+    table.string('nearest_colour');
     table.string('weight');
-    table.string('fibre content');
+    table.string('fibre_content');
   })
 };
 
