@@ -9,6 +9,8 @@ module.exports = {
     }
   },
 
+  useNullAsDefault: true,
+
   staging: {
     client: 'postgresql',
     connection: {
