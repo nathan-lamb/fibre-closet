@@ -32,7 +32,7 @@ exports.seed = function(knex, Promise) {
           colourway: 'Nachtblau',
           nearest_colour: 'Dark Blue',
           weight: 'DK',
-          fibre_content: 'Baumwolle'
+          fibre_content: 'Cotton'
         },
       ]);
     });

@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="e9b5a556-36b6-4086-b5af-12f1736c2e5e" name="New changelist" comment="Remove Title to a separate component" />
     <list default="true" id="84c1ce6b-e1a0-497d-8f2f-83bda21872ae" name="Default" comment="add initialSetup migration">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/seeds/test_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/seeds/test_data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AddStashForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddStashForm.tsx" afterDir="false" />
     </list>
+    <list id="e9b5a556-36b6-4086-b5af-12f1736c2e5e" name="New changelist" comment="Remove Title to a separate component" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -65,8 +62,8 @@
       <file leaf-file-name="test_data.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seeds/test_data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="193">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -254,7 +251,7 @@
       <workItem from="1528194511601" duration="15175000" />
       <workItem from="1528227062603" duration="7586000" />
       <workItem from="1528281947441" duration="32646000" />
-      <workItem from="1528547930500" duration="9656000" />
+      <workItem from="1528547930500" duration="9705000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Title to separate component">
       <created>1528217652055</created>
@@ -463,7 +460,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75871000" />
+    <option name="totallyTimeSpent" value="75920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="367" y="0" width="1073" height="590" extended-state="0" />
@@ -887,8 +884,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/seeds/test_data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        <state relative-caret-position="193">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
