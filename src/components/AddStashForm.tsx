@@ -45,6 +45,7 @@ const AddStashForm = () => {
                       <option value="purple">Purple</option>
                       <option value="white">White</option>
                       <option value="black">Black</option>
+                      <option value="turquoise">Turquoise</option>
                       <option value="multi">Multicolour</option>
                     </select>
                   </div>

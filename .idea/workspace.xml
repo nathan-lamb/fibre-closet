@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list id="e9b5a556-36b6-4086-b5af-12f1736c2e5e" name="New changelist" comment="Remove Title to a separate component" />
     <list default="true" id="84c1ce6b-e1a0-497d-8f2f-83bda21872ae" name="Default" comment="add initialSetup migration">
-      <change beforePath="$PROJECT_DIR$/migrations/20180609192058_stash.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/20180609192058_stash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeds/test_data.js" beforeDir="false" afterPath="$PROJECT_DIR$/seeds/test_data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddStashForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddStashForm.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,6 +44,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AddStashForm.tsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AddStashForm.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="StashThumb.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/StashThumb.tsx">
           <provider selected="true" editor-type-id="text-editor">
@@ -50,29 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20180609192058_stash.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/migrations/20180609192058_stash.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_data.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seeds/test_data.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="knexfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/knexfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -114,13 +108,13 @@
         <option value="$PROJECT_DIR$/src/routes.tsx" />
         <option value="$PROJECT_DIR$/src/components/StashEntry.tsx" />
         <option value="$PROJECT_DIR$/src/components/StashItem.tsx" />
-        <option value="$PROJECT_DIR$/src/components/AddStashForm.tsx" />
         <option value="$PROJECT_DIR$/src/components/StashThumb.tsx" />
         <option value="$PROJECT_DIR$/src/components/Stash.tsx" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/knexfile.js" />
         <option value="$PROJECT_DIR$/migrations/20180609183522_initialSetup.js" />
         <option value="$PROJECT_DIR$/migrations/20180609192058_stash.js" />
+        <option value="$PROJECT_DIR$/src/components/AddStashForm.tsx" />
         <option value="$PROJECT_DIR$/seeds/test_data.js" />
       </list>
     </option>
@@ -142,9 +136,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="326" />
-    <option name="width" value="1114" />
-    <option name="height" value="759" />
+    <option name="x" value="367" />
+    <option name="width" value="1073" />
+    <option name="height" value="590" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -180,6 +174,17 @@
               <item name="fibre-closet" type="b2602c69:ProjectViewProjectNode" />
               <item name="fibre-closet" type="462c0819:PsiDirectoryNode" />
               <item name="seeds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fibre-closet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fibre-closet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fibre-closet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fibre-closet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,7 +254,7 @@
       <workItem from="1528194511601" duration="15175000" />
       <workItem from="1528227062603" duration="7586000" />
       <workItem from="1528281947441" duration="32646000" />
-      <workItem from="1528547930500" duration="8208000" />
+      <workItem from="1528547930500" duration="9656000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Title to separate component">
       <created>1528217652055</created>
@@ -458,14 +463,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74423000" />
+    <option name="totallyTimeSpent" value="75871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="326" y="0" width="1114" height="759" extended-state="0" />
+    <frame x="367" y="0" width="1073" height="590" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="12" weight="0.27074236" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48608136" visible="true" weight="0.23330283" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48608136" visible="true" weight="0.24239543" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32932693" />
@@ -473,7 +478,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info id="npm" order="2" sideWeight="0.5011442" side_tool="true" weight="0.3292517" />
       <window_info id="Structure" order="1" sideWeight="0.51391864" side_tool="true" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3323263" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3306288" />
       <window_info id="Favorites" order="3" sideWeight="0.50256413" side_tool="true" weight="0.14050388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -814,13 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AddStashForm.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="79" column="52" selection-start-line="79" selection-start-column="52" selection-end-line="79" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Stash.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -852,17 +850,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/knexfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/migrations/20180609183522_initialSetup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" selection-end-line="16" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AddStashForm.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="47" column="66" selection-start-line="47" selection-start-column="66" selection-end-line="47" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/20180609192058_stash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -873,17 +878,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/migrations/20180609192058_stash.js">
+    <entry file="file://$PROJECT_DIR$/knexfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="120">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/seeds/test_data.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
