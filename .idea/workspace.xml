@@ -45,8 +45,8 @@
       <file leaf-file-name="AddStashForm.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/AddStashForm.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="173">
+              <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
               <folding>
                 <element signature="e#407#603#0" />
                 <element signature="e#798#1029#0" />
@@ -107,8 +107,8 @@
         <option value="$PROJECT_DIR$/src/components/StashEntry.tsx" />
         <option value="$PROJECT_DIR$/src/components/StashItem.tsx" />
         <option value="$PROJECT_DIR$/src/components/Stash.tsx" />
-        <option value="$PROJECT_DIR$/src/components/AddStashForm.tsx" />
         <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/AddStashForm.tsx" />
       </list>
     </option>
   </component>
@@ -230,7 +230,7 @@
       <workItem from="1528143491664" duration="1968000" />
       <workItem from="1528194511601" duration="15175000" />
       <workItem from="1528227062603" duration="7586000" />
-      <workItem from="1528281947441" duration="31405000" />
+      <workItem from="1528281947441" duration="32646000" />
     </task>
     <task id="LOCAL-00001" summary="Remove Title to separate component">
       <created>1528217652055</created>
@@ -386,11 +386,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528368903291</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Styling AddStashForm">
+      <created>1528539550758</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1528539550767</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add submit button and remove modal footer">
+      <created>1528547409755</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1528547409757</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64974000" />
+    <option name="totallyTimeSpent" value="66215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="410" y="0" width="1030" height="534" extended-state="0" />
@@ -495,7 +509,9 @@
     <MESSAGE value="Add some stash form details" />
     <MESSAGE value="Add stash form details" />
     <MESSAGE value="Add modal for AddStashForm" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add modal for AddStashForm" />
+    <MESSAGE value="Styling AddStashForm" />
+    <MESSAGE value="Add submit button and remove modal footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add submit button and remove modal footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -819,6 +835,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Stash.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -839,17 +862,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AddStashForm.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="173">
+          <caret line="76" column="22" lean-forward="true" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
           <folding>
             <element signature="e#407#603#0" />
             <element signature="e#798#1029#0" />
