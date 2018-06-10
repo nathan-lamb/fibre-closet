@@ -15,25 +15,40 @@ export interface DbStash {
   fibre_content?: string
 }
 
+export interface StashThumbnail {
+  id: number,
+  yarn?: string
+}
+
 interface StashState {
-  stash: DbStash | null
+  stash: DbStash | null,
+  ids: StashThumbnail[] | null
 }
 
 class Stash extends React.Component<{}, StashState> {
-  state = {
+  state: StashState = {
     stash: null,
+    ids: null,
   }
 
   async componentDidMount () {
     const response = await fetch('/hi')
     const stash = await response.json()
-
     this.setState({stash})
+
+    const responseStashIds = await fetch('/stash')
+    const ids = await responseStashIds.json()
+    const idsArray = []
+
+    for (const i of ids) {
+      idsArray.push(ids[i].id)
+    }
+    this.setState({ids: idsArray})
   }
 
   render() {
-    const {stash} = this.state;
-    if (stash == null) {
+    const {stash, ids} = this.state;
+    if (stash == null || ids == null) {
       return null
     }
 
@@ -46,9 +61,9 @@ class Stash extends React.Component<{}, StashState> {
             <AddStashForm />
           </div>
           <div className="column-group gutters">
+            {ids.map((id) => (
               <StashThumb />
-              <StashThumb />
-              <StashThumb />
+            ))}
           </div>
           <StashDetail stash={stash}/>
         </div>
