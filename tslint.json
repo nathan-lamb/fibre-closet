@@ -2,13 +2,16 @@
   "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
   "rules": {
     "ordered-imports": false,
-    "semicolon": [false, "never"]
+    "semicolon": [false, "never"],
+    "member-access": false,
+    "interface-name": false
   },
   "jsRules": {
     "object-literal-sort-keys": false,
     "no-console": false,
     "semicolon": [false, "never"],
-    "ordered-imports": false
+    "ordered-imports": false,
+    "member-access": false
   },
   "linterOptions": {
     "exclude": [

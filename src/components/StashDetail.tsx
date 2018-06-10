@@ -1,20 +1,23 @@
 import * as React from 'react'
+import {DbStash} from "./Stash";
 
-class StashDetail extends React.Component {
-  constructor(props: any) {
+interface IStashDetailProps {
+  stash: DbStash
+}
+
+class StashDetail extends React.Component<IStashDetailProps> {
+  constructor(props: IStashDetailProps) {
     super(props);
-    this.state = {
-      yarn: " ",
-    }
   }
+
   render () {
-  return (
+    return (
       <div className="column-group gutters">
         <div className="all-50">
-          Image
+          <p>Image</p>
         </div>
         <div className="all-50">
-          <p>Yarn: </p>
+          <p>Yarn: {this.props.stash.yarn}</p>
           <p>Brand: </p>
           <p>Quantity: </p>
           <p>Colourway: </p>

@@ -9,7 +9,7 @@ import Title from "./components/Title";
 import routes from './routes'
 
 class App extends React.Component {
-  public render() {
+  render() {
     return (
         <Router>
           <div>
