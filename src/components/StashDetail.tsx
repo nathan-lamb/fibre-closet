@@ -1,6 +1,13 @@
 import * as React from 'react'
 
-const StashDetail = () => {
+class StashDetail extends React.Component {
+  constructor(props: any) {
+    super(props);
+    this.state = {
+      yarn: " ",
+    }
+  }
+  render () {
   return (
       <div className="column-group gutters">
         <div className="all-50">
@@ -16,7 +23,7 @@ const StashDetail = () => {
           <p>Fibre Content: </p>
         </div>
       </div>
-  )
-};
+  )}
+}
 
 export default StashDetail
