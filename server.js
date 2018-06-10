@@ -4,7 +4,6 @@ const path = require('path')
 const db = require('./db')
 const request = require('request');
 
-
 const router = express.Router()
 const app = express()
 const PORT = 4200
@@ -22,9 +21,7 @@ router.get('/hi', async (req, res, next) => {
   catch (e) {
     next(e)
   }
-
 })
-
 
 app.use('/', (req, res) => {
   const url = "http://localhost:3000" + req.url;
