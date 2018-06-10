@@ -3,6 +3,8 @@ import * as React from 'react';
 import AddStashForm from './AddStashForm'
 // import FilterMenu from './FilterMenu'
 import StashThumb from './StashThumb'
+import StashDetail from './StashDetail'
+
 const Stash = () => {
   return (
       <div>
@@ -18,6 +20,7 @@ const Stash = () => {
             <StashThumb />
             <StashThumb />
         </div>
+        <StashDetail />
       </div>
   )
 };
