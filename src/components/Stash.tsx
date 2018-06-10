@@ -49,7 +49,6 @@ class Stash extends React.Component<{}, StashState> {
               <StashThumb />
               <StashThumb />
               <StashThumb />
-              <StashThumb />
           </div>
           <StashDetail stash={stash}/>
         </div>

@@ -4,7 +4,7 @@ const StashThumb = () => {
   return (
       <a>
         <div className="thumbnail all-20">
-          This is a thumb
+          <p>Yarn name</p>
         </div>
       </a>
   )

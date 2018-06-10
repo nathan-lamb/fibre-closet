@@ -7,6 +7,11 @@ const getStashById = async (id) => {
   return await knex.from('stash').where('id', id).first()
 };
 
+const getStashIds = async () => {
+  return await knex.from('stash').select('id')
+};
+
 module.exports = {
-  getStashById: getStashById
+  getStashById: getStashById,
+  getStashIds: getStashIds
 };
