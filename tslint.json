@@ -2,6 +2,7 @@
   "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
   "linterOptions": {
     "defaultSeverity": "warning",
+    "ordered-import": false,
     "exclude": [
       "config/**/*.js",
       "node_modules/**/*.ts"
