@@ -19,8 +19,6 @@ app.use('/', (req, res) => {
   req.pipe(request(url)).pipe(res);
 });
 
-
-
 router.get('/hi', async (req, res, next) => {
   try {
     const stash = await db.getStashById(1)
