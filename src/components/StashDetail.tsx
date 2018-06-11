@@ -18,12 +18,12 @@ class StashDetail extends React.Component<IStashDetailProps> {
         </div>
         <div className="all-50">
           <p>Yarn: {this.props.stash.yarn}</p>
-          <p>Brand: </p>
-          <p>Quantity: </p>
-          <p>Colourway: </p>
-          <p>Nearest Colour: </p>
-          <p>Weight: </p>
-          <p>Fibre Content: </p>
+          <p>Brand: {this.props.stash.brand}</p>
+          <p>Quantity: {this.props.stash.quantity}</p>
+          <p>Colourway: {this.props.stash.colourway}</p>
+          <p>Nearest Colour: {this.props.stash.nearest_colour}</p>
+          <p>Weight: {this.props.stash.weight}</p>
+          <p>Fibre Content: {this.props.stash.fibre_content}</p>
         </div>
       </div>
   )}
