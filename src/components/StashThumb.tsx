@@ -1,10 +1,10 @@
 import * as React from 'react'
 
-const StashThumb = () => {
+const StashThumb = (props: any) => {
   return (
       <a>
         <div className="thumbnail all-20">
-          <p>Yarn name</p>
+          <p>Yarn Id: {props.id}</p>
         </div>
       </a>
   )

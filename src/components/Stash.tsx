@@ -41,7 +41,8 @@ class Stash extends React.Component<{}, StashState> {
     const idsArray = []
 
     for (const i of ids) {
-      idsArray.push(ids[i].id)
+      const id = i.id
+      idsArray.push(id)
     }
     this.setState({ids: idsArray})
   }
@@ -62,7 +63,7 @@ class Stash extends React.Component<{}, StashState> {
           </div>
           <div className="column-group gutters">
             {ids.map((id) => (
-              <StashThumb />
+              <StashThumb id={id}/>
             ))}
           </div>
           <StashDetail stash={stash}/>
