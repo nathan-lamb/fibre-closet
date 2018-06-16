@@ -31,8 +31,8 @@ router.get('/hi', async (req, res, next) => {
 
 router.get('/stash', async (req, res, next) => {
   try {
-    const stashIds = await db.getStashIds()
-    res.send(stashIds)
+    const stashThumbnails = await db.getStashIds()
+    res.send(stashThumbnails)
   }
   catch(e) {
     next(e)

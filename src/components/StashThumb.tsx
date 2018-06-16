@@ -4,7 +4,7 @@ const StashThumb = (props: any) => {
   return (
       <a>
         <div className="thumbnail all-20">
-          <p>Yarn Id: {props.id}</p>
+          <p>{props.id}</p>
         </div>
       </a>
   )
