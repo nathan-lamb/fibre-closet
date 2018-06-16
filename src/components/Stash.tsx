@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import AddStashForm from './AddStashForm'
 import StashThumb from './StashThumb'
-import StashDetail from './StashDetail'
+// import StashDetail from './StashDetail'
 
 export interface DbStash {
   id: number,
@@ -22,7 +22,7 @@ export interface StashThumbnail {
 
 interface StashState {
   stash: DbStash | null,
-  ids: StashThumbnail[] | null
+  ids: number[]| null
   thumbnails: [StashThumbnail] | null
 }
 
@@ -40,13 +40,13 @@ class Stash extends React.Component<{}, StashState> {
 
     const responseStashThumbnails = await fetch('/stash')
     const thumbnails = await responseStashThumbnails.json()
-    const idsArray = []
+    const idsArray: number[] = []
 
-    // for (const i of ids) {
-    //   idsArray.push(i.id)
-    // }
+    for (const i of thumbnails) {
+      idsArray.push(i.id)
+    }
 
-    this.setState({thumbnails: })
+    this.setState({thumbnails, ids: idsArray})
 
   }
 
@@ -64,12 +64,12 @@ class Stash extends React.Component<{}, StashState> {
             </button>
             <AddStashForm />
           </div>
-          <div className="column-group all-10 gutters">
+          <div className="column-group all-100gutters">
             {ids.map(() => (
                   <StashThumb/>
             ))}
           </div>
-          <StashDetail stash={stash}/>
+          {/*<StashDetail stash={stash}/>*/}
         </div>
     )
   }
