@@ -18,7 +18,7 @@ const routes = [
     object: Stash,
     path: '/stash',
     title: () => <h1 className="fw-700 align-right title">Stash</h1>
-},
+  },
   {
     component: <div>Patterns</div>,
     object: Patterns,

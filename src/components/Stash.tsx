@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-import AddStashForm from './AddStashForm'
 import StashThumb from './StashThumb'
 // import StashDetail from './StashDetail'
 
@@ -30,7 +29,7 @@ class Stash extends React.Component<{}, StashState> {
   state: StashState = {
     stash: null,
     ids: null,
-    thumbnails: null
+    thumbnails: null,
   }
 
   async componentDidMount () {
@@ -47,7 +46,6 @@ class Stash extends React.Component<{}, StashState> {
     }
 
     this.setState({thumbnails, ids: idsArray})
-
   }
 
   render() {
@@ -58,13 +56,7 @@ class Stash extends React.Component<{}, StashState> {
 
     return (
         <div>
-          <div className="column all-100">
-            <button className="ink-button">
-              Add <i className="fas fa-plus-circle" />
-            </button>
-            <AddStashForm />
-          </div>
-          <div className="column-group all-100gutters">
+          <div className="column-group all-100 gutters">
             {ids.map(() => (
                   <StashThumb/>
             ))}
