@@ -59,7 +59,7 @@ class Stash extends React.Component<{}, StashState> {
     return (
         <div>
           <div className="column all-100">
-            <button id="stashFormModal" className="ink-button">
+            <button className="ink-button">
               Add <i className="fas fa-plus-circle" />
             </button>
             <AddStashForm />
